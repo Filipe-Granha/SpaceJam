@@ -1,1 +1,3 @@
-# js_group_project
+mongod (MongoDB),
+ npm run bundle (webpack),
+ npm start (server)
