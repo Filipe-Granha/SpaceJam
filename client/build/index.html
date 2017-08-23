@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script src="javascript/bundle.js"></script>
+  <title>SPACE JAM</title>
+</head>
+
+
+<body>
+  
+  <div id='star-field-canvas'>
+  <canvas id="star-field"></canvas>
+  </div>
+
+  <div id="container">
+
+    <nav>
+      <div id="titlelogo">
+        <img id="logo" src="images/cc.png">
+        <h1 id="title">Space Jam</h1>
+      </div>
+    </nav>
+    
+
+    <div id="hover-container">
+          <h2 id="hover">
+            Solar System
+          </h2>
+    </div>
+
+
+
+    <div id="app">
+          <aside id="left-side" class="side">
+           <button id="favouritesButton" class="myButton">Add to Favourites</button>
+           <hr>
+           <button id="deleteFavouritesButton" class="myButton">Delete Favourites</button>
+         </aside>
+
+         <div id= "canvas-div">
+          <form id="form" action="/" method = "GET">
+            <input type="submit" value ="Solar System" class="myButton"></input>
+          </form>
+          <div width="800" height="500">
+
+           <canvas id="canvas" width="800" height="500">
+           </canvas>
+         </div>
+       </div>
+
+       <aside class="side" id="right-side">
+       </aside>
+ </div>
+
+
+ <div id="info-container">
+       <div id="info-nav">
+         <button id="description-button">Description</button>
+         <button id="gallery-button">Gallery</button>
+         <button id="fun-facts-button">Fun Facts</button>
+       </div>
+       <section id="info-box" class="bottom-div">
+       </section>
+       <section id="gallery" class="bottom-div">
+         <div id="space-div"></div>
+       </section>
+       <section id="fun-facts" class="bottom-div">
+       </section>
+ </div>
+
+ 
+</div>
+
+
+</body>
+</html>

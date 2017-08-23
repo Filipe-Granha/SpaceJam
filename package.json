@@ -1,0 +1,30 @@
+{
+  "name": "js_group_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha client/models/specs",
+    "start": "nodemon server.js",
+    "bundle": "cd client && webpack -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/upuld/js_group_project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/upuld/js_group_project/issues"
+  },
+  "homepage": "https://github.com/upuld/js_group_project#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "mongodb": "^2.2.31",
+    "webpack": "^3.5.3"
+  },
+  "devDependencies": {
+    "mocha": "^3.5.0"
+  }
+}
